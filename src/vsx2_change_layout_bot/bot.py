@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import sys
 import argparse
 
-from vsx2_change_layout import change_layout
+from vsx2_change_layout.helpers import change_layout
 
 import logging
 logger = logging.getLogger('tg_bot')
